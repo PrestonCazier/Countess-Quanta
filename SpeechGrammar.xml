@@ -137,7 +137,7 @@
         <tag>Yes</tag>
         <one-of>
           <item> yes </item>
-          <item> are your a robot </item>
+          <item> are you a robot </item>
           <item> do you want to be able to move </item>
           <item> do you like your name </item>
         </one-of>
