@@ -1,0 +1,157 @@
+<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>Hello</tag>
+        <one-of>
+          <item> hello </item>
+          <item> hi </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Bye</tag>
+        <one-of>
+          <item> good bye </item>
+          <item> bye </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PlayHarp</tag>
+        <one-of>
+          <item> Could you play some music on harp </item>
+          <item> Would you like play some music on harp </item>
+          <item> Can you play some music on harp </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Count</tag>
+        <one-of>
+          <item> count </item>
+          <item> count for me </item>
+          <item> count for to five </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Add</tag>
+        <one-of>
+          <item> what's one plus two </item>
+          <item> what's one and two </item>
+          <item> one plus two </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Zero</tag>
+        <one-of>
+          <item> zero </item>
+          <item> show me zero </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>One</tag>
+        <one-of>
+          <item> one </item>
+          <item> show me one </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Two</tag>
+        <one-of>
+          <item> two </item>
+          <item> show me two </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Three</tag>
+        <one-of>
+          <item> three </item>
+          <item> show me three </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Four</tag>
+        <one-of>
+          <item> four </item>
+          <item> show me four </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Five</tag>
+        <one-of>
+          <item> five </item>
+          <item> show me five </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Name</tag>
+        <one-of>
+          <item> what's your name </item>
+          <item> who are you </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LookForward</tag>
+        <one-of>
+          <item> look to the front </item>
+          <item> look ahead </item>
+          <item> look forward </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LookLeft</tag>
+        <one-of>
+          <item> look to the left </item>
+          <item> look left </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LookRight</tag>
+        <one-of>
+          <item> look to the right </item>
+          <item> look right </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Happy</tag>
+        <one-of>
+          <item> happy </item>
+          <item> be happy </item>
+          <item> show me happy </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Sad</tag>
+        <one-of>
+          <item> sad </item>
+          <item> be sad </item>
+          <item> show me sad </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Yes</tag>
+        <one-of>
+          <item> yes </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>No</tag>
+        <one-of>
+          <item> no </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Default</tag>
+        <one-of>
+          <item> default </item>
+          <item> default position </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PlayMusic</tag>
+        <one-of>
+          <item> Could you play some music by hand</item>
+          <item>  Would you like play some music by hand</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

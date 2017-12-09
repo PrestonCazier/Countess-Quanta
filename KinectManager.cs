@@ -226,13 +226,13 @@ namespace CountessQuantaControl
                      case "PlayHarp":
                         sequenceName = "PlayHarp";
                         break;
-                    case "PLAYMUSIC":
+                    case "PlayMusic":
                         sequenceName = "PLAYMUSIC";
                         break;
                     case "Count":
                         sequenceName = "Count";
                         break;
-                    case "NAME":
+                    case "Name":
                         sequenceName = "NAME";
                         break;
                     case "Sad":
@@ -250,13 +250,13 @@ namespace CountessQuantaControl
                     case "Add":
                         sequenceName = "Add";
                         break;
-                    case "Look Forward":
+                    case "LookForward":
                         sequenceName = "Look Forward";
                         break;
-                    case "Look Left":
+                    case "LookLeft":
                         sequenceName = "Look Left";
                         break;
-                    case "Look Right":
+                    case "LookRight":
                         sequenceName = "Look Right";
                         break;
                     case "Zero":
@@ -277,7 +277,7 @@ namespace CountessQuantaControl
                     case "Five":
                         sequenceName = "Five";
                         break;
-                    case "DEFAULT":
+                    case "Default":
                         sequenceName = "DEFAULT";
                         break;
                 }
