@@ -90,7 +90,7 @@
             <ServoPosition Index="16" Position="1750" />
             <ServoPosition Index="17" Position="2000" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1" Speech="This is my default position">
+        <Frame Name="Example Frame" TimeToDestination="1">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
@@ -331,20 +331,21 @@
         </Frame>
     </Sequence>
     <Sequence Name="Add">
-        <Frame Name="Example Frame" TimeToDestination="1" Speech="One">
+        <Frame Name="Example Frame" TimeToDestination="2" Speech="One">
             <ServoPosition Index="12" Position="1250" />
             <ServoPosition Index="13" Position="2000" />
             <ServoPosition Index="14" Position="1000" />
             <ServoPosition Index="16" Position="1750" />
             <ServoPosition Index="17" Position="2000" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1" Speech=" Plus two">
+        <Frame Name="Example Frame" TimeToDestination="2" Speech=" Plus two">
             <ServoPosition Index="13" Position="1250" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1" Speech="It's so easy , of course three">
+        <Frame Delay="4"/>
+        <Frame Name="Example Frame" TimeToDestination="2" Speech="It's so easy , of course three">
             <ServoPosition Index="12" Position="1250" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1">
+        <Frame Name="Example Frame" TimeToDestination="5">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
@@ -402,7 +403,7 @@
         </Frame>
     </Sequence>
     <Sequence Name="DEFAULT">
-        <Frame Name="Example Frame" TimeToDestination="1" Speech="This is my default position">
+        <Frame Name="Example Frame" TimeToDestination="3" Speech="This is my default position">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
@@ -415,16 +416,16 @@
         </Frame>
     </Sequence>
     <Sequence Name="NeckRotate">
-        <Frame Name="Example Frame" TimeToDestination="2" Speech="I am rotating my neck">
+        <Frame Name="Example Frame" TimeToDestination="4" Speech="I am rotating my neck">
             <ServoPosition Index="9" Position="1100" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="2">
+        <Frame Name="Example Frame" TimeToDestination="4">
             <ServoPosition Index="9" Position="1900" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="2">
+        <Frame Name="Example Frame" TimeToDestination="4">
             <ServoPosition Index="9" Position="1100" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="2">
+        <Frame Name="Example Frame" TimeToDestination="4">
             <ServoPosition Index="9" Position="1900" />
         </Frame>
     </Sequence>
@@ -481,7 +482,7 @@
             <ServoPosition Index="16" Position="50" />
             <ServoPosition Index="17" Position="50" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="1">
             <ServoPosition Index="12" Position="50" />
             <ServoPosition Index="14" Position="50" />
             <ServoPosition Index="16" Position="50" />
@@ -517,7 +518,7 @@
         </Frame>
     </Sequence>
     <Sequence Name="Five">
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Here let me show you five">
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Here let me show you five">
             <ServoPosition Index="12" Position="1250" />
             <ServoPosition Index="13" Position="1250" />
             <ServoPosition Index="14" Position="1500" />
@@ -533,51 +534,63 @@
             <ServoPosition Index="16" Position="1500" />
             <ServoPosition Index="17" Position="1500" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Zero">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Zero">
             <ServoPosition Index="12" Position="2000" />
             <ServoPosition Index="13" Position="2000" />
             <ServoPosition Index="14" Position="1000" />
             <ServoPosition Index="16" Position="1750" />
             <ServoPosition Index="17" Position="2000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="One">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="One">
             <ServoPosition Index="17" Position="1500" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Two">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Two">
             <ServoPosition Index="13" Position="1250" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Three">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Three">
             <ServoPosition Index="12" Position="1250" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Four">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Four">
             <ServoPosition Index="14" Position="1500" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Five">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Five">
             <ServoPosition Index="16" Position="1500" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Five">
+        <Frame Delay="4"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Five">
             <ServoPosition Index="16" Position="1500" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Four">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Four">
             <ServoPosition Index="16" Position="1750" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Three">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Three">
             <ServoPosition Index="14" Position="1000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Two">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Two">
             <ServoPosition Index="12" Position="2000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="One">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="One">
             <ServoPosition Index="13" Position="2000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Zero">
+        <Frame Delay="2"/>
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Zero">
             <ServoPosition Index="12" Position="2000" />
             <ServoPosition Index="13" Position="2000" />
             <ServoPosition Index="14" Position="1000" />
             <ServoPosition Index="16" Position="1750" />
             <ServoPosition Index="17" Position="2000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="12" Position="1250" />
             <ServoPosition Index="13" Position="1250" />
             <ServoPosition Index="14" Position="1500" />
@@ -592,19 +605,19 @@
             <ServoPosition Index="10" Position="1500" />
             <ServoPosition Index="11" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="5">
             <ServoPosition Index="10" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="5">
             <ServoPosition Index="10" Position="1900" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="5">
             <ServoPosition Index="10" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="5">
             <ServoPosition Index="10" Position="1900" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1">
+        <Frame Name="Example Frame" TimeToDestination="5">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
@@ -612,19 +625,29 @@
         </Frame>
     </Sequence>
     <Sequence Name="Happy">
-        <Frame Name="Frame0" TimeToDestination="2" Speech="This is what I look like when i am happy">
+        <Frame Name="Frame0" TimeToDestination="5" Speech="This is what I look like when i am happy">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1600" />
             <ServoPosition Index="10" Position="1500" />
             <ServoPosition Index="11" Position="1400" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Delay="1"/>
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="10" Position="1300" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Delay="1"/>
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="10" Position="1700" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1">
+        <Frame Delay="1"/>
+        <Frame Name="Frame0" TimeToDestination="4">
+            <ServoPosition Index="10" Position="1300" />
+        </Frame>
+        <Frame Delay="1"/>
+        <Frame Name="Frame0" TimeToDestination="4">
+            <ServoPosition Index="10" Position="1700" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination="5">
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
             <ServoPosition Index="11" Position="1100" />
@@ -655,27 +678,27 @@
         </Frame>
     </Sequence>
     <Sequence Name="Yes">
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Yes">
+        <Frame Name="Frame0" TimeToDestination="4" Speech="Yes">
             <ServoPosition Index="9" Position="1000" />
             <ServoPosition Index="11" Position="1700" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="9" Position="1750" />
             <ServoPosition Index="11" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="9" Position="1000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="9" Position="1750" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="9" Position="1000" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="4">
             <ServoPosition Index="9" Position="1750" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1">
+        <Frame Name="Example Frame" TimeToDestination="5">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
@@ -683,27 +706,27 @@
         </Frame>
     </Sequence>
     <Sequence Name="No">
-        <Frame Name="Frame0" TimeToDestination="2" Speech="No">
+        <Frame Name="Frame0" TimeToDestination="3" Speech="No">
             <ServoPosition Index="10" Position="1100" />
             <ServoPosition Index="11" Position="1700" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="10" Position="1900" />
             <ServoPosition Index="11" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="10" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="10" Position="1900" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="10" Position="1100" />
         </Frame>
-        <Frame Name="Frame0" TimeToDestination="2">
+        <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="10" Position="1900" />
         </Frame>
-        <Frame Name="Example Frame" TimeToDestination="1">
+        <Frame Name="Example Frame" TimeToDestination="5">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
@@ -711,7 +734,7 @@
         </Frame>
     </Sequence>
     <Sequence Name="Bye">
-        <Frame Name="Frame0" TimeToDestination="2" Speech="Good bye">
+        <Frame Name="Frame0" TimeToDestination="1" Speech="Good bye">
 			<ServoPosition Index="11" Position="1700" />
             <ServoPosition Index="12" Position="1250" />
             <ServoPosition Index="13" Position="1250" />
