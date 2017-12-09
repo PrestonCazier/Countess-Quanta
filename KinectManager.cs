@@ -251,13 +251,13 @@ namespace CountessQuantaControl
                         sequenceName = "Add";
                         break;
                     case "LookForward":
-                        sequenceName = "Look Forward";
+                        sequenceName = "LookForward";
                         break;
                     case "LookLeft":
-                        sequenceName = "Look Left";
+                        sequenceName = "LookLeft";
                         break;
                     case "LookRight":
-                        sequenceName = "Look Right";
+                        sequenceName = "LookRight";
                         break;
                     case "Zero":
                         sequenceName = "Zero";

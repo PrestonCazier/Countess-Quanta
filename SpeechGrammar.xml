@@ -12,7 +12,8 @@
         <tag>Bye</tag>
         <one-of>
           <item> good bye </item>
-          <item> bye </item>
+          <item> goodbye </item>
+          <item> later </item>
         </one-of>
       </item>
       <item>
