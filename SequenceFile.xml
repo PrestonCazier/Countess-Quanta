@@ -200,7 +200,7 @@
             <ServoPosition Index="6" Position="907" />
         </Frame>
     </Sequence>
-    <Sequence Name="PLAYMUSIC">
+    <Sequence Name="PlayMusic">
         <Frame Name="Example Frame" TimeToDestination="0.5" Speech="Let me play some music">
             <ServoPosition Index="0" Position="1267" />
             <ServoPosition Index="1" Position="1730" />
@@ -653,7 +653,7 @@
             <ServoPosition Index="11" Position="1100" />
         </Frame>
     </Sequence>
-    <Sequence Name="Look Left">
+    <Sequence Name="LookLeft">
         <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="8" Position="1000" />
             <ServoPosition Index="9" Position="1750" />
@@ -661,7 +661,7 @@
             <ServoPosition Index="11" Position="1100" />
         </Frame>
     </Sequence>
-    <Sequence Name="Look Right">
+    <Sequence Name="LookRight">
         <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="8" Position="2000" />
             <ServoPosition Index="9" Position="1750" />
@@ -669,7 +669,7 @@
             <ServoPosition Index="11" Position="1100" />
         </Frame>
     </Sequence>
-    <Sequence Name="Look Forward">
+    <Sequence Name="LookForward">
         <Frame Name="Frame0" TimeToDestination="3">
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
@@ -770,6 +770,43 @@
             <ServoPosition Index="8" Position="1500" />
             <ServoPosition Index="9" Position="1400" />
             <ServoPosition Index="10" Position="1500" />
+            <ServoPosition Index="11" Position="1100" />
+            <ServoPosition Index="12" Position="1250" />
+            <ServoPosition Index="13" Position="1250" />
+            <ServoPosition Index="14" Position="1500" />
+            <ServoPosition Index="16" Position="1500" />
+            <ServoPosition Index="17" Position="1500" />
+        </Frame>
+    </Sequence>
+    <Sequence Name="IDontKnow">
+        <Frame Name="Frame0" TimeToDestination=".5" Speech="I do not know">
+            <ServoPosition Index="8" Position="1500" />
+            <ServoPosition Index="9" Position="1400" />
+            <ServoPosition Index="10" Position="1500" />
+			<ServoPosition Index="11" Position="1700" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1100" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1700" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1100" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1700" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1100" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1700" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination=".5">
+			<ServoPosition Index="11" Position="1100" />
+        </Frame>
+        <Frame Name="Example Frame" TimeToDestination="5">
             <ServoPosition Index="11" Position="1100" />
             <ServoPosition Index="12" Position="1250" />
             <ServoPosition Index="13" Position="1250" />

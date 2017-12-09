@@ -280,6 +280,9 @@ namespace CountessQuantaControl
                     case "Default":
                         sequenceName = "DEFAULT";
                         break;
+                    case "IDontKnow":
+                        sequenceName = "IDontKnow";
+                        break;
                 }
 
                 if (sequenceName != "")

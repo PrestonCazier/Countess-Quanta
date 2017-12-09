@@ -28,7 +28,8 @@
         <one-of>
           <item> count </item>
           <item> count for me </item>
-          <item> count for to five </item>
+          <item> count to five </item>
+          <item> can you count for me </item>
         </one-of>
       </item>
       <item>
@@ -51,6 +52,7 @@
         <one-of>
           <item> one </item>
           <item> show me one </item>
+          <item> how many hands do you have </item>
         </one-of>
       </item>
       <item>
@@ -116,6 +118,8 @@
           <item> happy </item>
           <item> be happy </item>
           <item> show me happy </item>
+          <item> what do you look like happy </item>
+          <item> what do you look like when you are happy </item>
         </one-of>
       </item>
       <item>
@@ -124,18 +128,35 @@
           <item> sad </item>
           <item> be sad </item>
           <item> show me sad </item>
+          <item> what do you look like sad </item>
+          <item> what do you look like when you are sad </item>
         </one-of>
       </item>
       <item>
         <tag>Yes</tag>
         <one-of>
           <item> yes </item>
+          <item> are your a robot </item>
+          <item> do you want to be able to move </item>
+          <item> do you like your name </item>
         </one-of>
       </item>
       <item>
         <tag>No</tag>
         <one-of>
           <item> no </item>
+          <item> are you human </item>
+          <item> do you walk to work </item>
+          <item> are you ever late </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>IDontKnow</tag>
+        <one-of>
+          <item> what am i </item>
+          <item> what is three plus three </item>
+          <item> why are your eyes red </item>
+          <item> do you like food </item>
         </one-of>
       </item>
       <item>
