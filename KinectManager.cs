@@ -227,13 +227,13 @@ namespace CountessQuantaControl
                         sequenceName = "PlayHarp";
                         break;
                     case "PlayMusic":
-                        sequenceName = "PLAYMUSIC";
+                        sequenceName = "PlayMusic";
                         break;
                     case "Count":
                         sequenceName = "Count";
                         break;
                     case "Name":
-                        sequenceName = "NAME";
+                        sequenceName = "Name";
                         break;
                     case "Sad":
                         sequenceName = "Sad";
@@ -278,7 +278,7 @@ namespace CountessQuantaControl
                         sequenceName = "Five";
                         break;
                     case "Default":
-                        sequenceName = "DEFAULT";
+                        sequenceName = "Default";
                         break;
                     case "IDontKnow":
                         sequenceName = "IDontKnow";
